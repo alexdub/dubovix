@@ -25,13 +25,22 @@ header .container {
   font-family: "Montserrat";
 }
 
-.wr-promo .container p {
+.wr-promo .container h2 {
   font-size: 34px;
   color: #fff;
   text-align: center;
   font-family: "Noto Sans Italic";
   padding-top: 20px;
 }
+
+.wr-promo .container p {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  font-family: "Noto Sans Italic";
+  padding-top: 20px;
+}
+
 .divider {
   text-align: center;
   padding-top: 20px;
@@ -57,13 +66,21 @@ header .container {
 
 /* set section our services */
 
-.wr-services .container {
+.wr-services {
+  display: flex;
   background-color: #121212;
+}
+.wr-services .container {
+  
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .wr-services .container h2 {
   font-family: "Montserrat";
   color: #fff;
+  padding-top: 20px;
+  padding-left: 40px;
 }
 
 .wr-services .container p {
@@ -73,16 +90,20 @@ header .container {
 .wr-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .wr-container .container {
   box-sizing: border-box;
   padding: 1rem;
   width: 30%;
 }
-.image-wrapper {
-  width: 50%;
+.container .image-wrapper {
+  width: 25%;
   border-bottom: solid 2px #757575;
+  padding-left:10px;
 }
+
+
 
 
 
