@@ -10,7 +10,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-bottom: 309px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
     
   }
 
