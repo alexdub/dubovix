@@ -159,7 +159,7 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-rows: repeat(14, 1fr);
+  grid-template-rows: repeat(14, minmax(auto,55px));
   grid-template-columns: repeat(5, 1fr);
   background-color: #121212;
 }
