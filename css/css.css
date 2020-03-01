@@ -156,12 +156,15 @@ h1 {
 
 /* set section galery */
 
+section {
+  background-color: #121212;
+}
 
 .grid-container {
   display: grid;
   grid-template-rows: repeat(14, minmax(auto,55px));
   grid-template-columns: repeat(5, 1fr);
-  background-color: #121212;
+  
 }
 .grid-container img{
   width: 100%;
@@ -214,8 +217,22 @@ h1 {
   grid-column:5;
   grid-row: 6/14;
 }
+.btn-container{
+  display: flex;
+}
 
-
-.button {
-
+.btn-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 970px;
+  height: 50px;
+  background: linear-gradient(to right, #26a69a 0%,#ab47bc 100%);
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color:white;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
