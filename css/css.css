@@ -91,7 +91,7 @@ h1 {
 }
 .wr-services .container {
   
-  max-width: 75%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -156,7 +156,7 @@ h1 {
 
 /* set section galery */
 
-section {
+.wr-galery {
   background-color: #121212;
 }
 
@@ -172,11 +172,14 @@ section {
   object-fit: cover;
 
 }
+
+
 .grid-item-image1 {
   grid-column:1;
   grid-row: 1/6;
   
 }
+
 .grid-item-image2 {
   grid-column:2;
   grid-row: 1/5;
@@ -236,3 +239,112 @@ section {
   box-sizing: border-box;
   margin: 0 auto;
 }
+
+
+
+.wr-howwework {
+  background-color: #121212;
+  padding-top: 10px;
+}
+
+.wr-howwework .container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.wr-howwework .container h2 {
+font-family: "Montserrat";
+  color: #fff;
+  font-size: 36px;
+  font-style: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-transform: capitalize;
+  padding-top: 30px;
+
+}
+
+.wr-how-container {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+ 
+  
+}
+
+.wh-how-container .container .image-divider {
+  border-bottom: solid 2px;
+  border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%);
+
+}
+
+.image-divider {
+  font-family: 'Montserrat';
+  font-size: 72px;
+  color:#fff;
+  width: 65%;
+  border-bottom: solid 2px;
+  border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%) 1;
+}
+
+.image-divider span{
+  color: #757575;
+  font-size: 26px;
+  font-family: 'Noto Sans';
+  font-style: italic;
+}
+
+.wr-how-container .container h3 {
+  font-family: 'Montserrat';
+  font-size: 26px;
+  color:#fff;
+  font-style: bold;
+  padding-top: 10px;
+}
+
+.wr-how-container .container p {
+  color: #757575;
+  font-size: 14px;
+  font-family: 'Noto Sans';
+  padding-top: 10px;
+  
+}
+
+/* set section our clients */
+
+
+.clients-wrapper{
+  display: flex;
+  background: linear-gradient(to right, #26a69a 0%,#ab47bc 100%);
+}
+
+.clients-wrapper .container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container .wr-clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.wr-clients .clients{
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 25%;
+  font-size: 30px;
+  color:#fff;
+}
+
+
+
+.clients-wrapper .container h2{
+  font-family: 'Montserrat';
+  font-size: 36px;
+  color:#fff;
+  padding-top: 20px;
+}
+
+
+/* set section our clients */
