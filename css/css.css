@@ -285,6 +285,7 @@ font-family: "Montserrat";
   width: 65%;
   border-bottom: solid 2px;
   border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%) 1;
+  position: relative;
 }
 
 .image-divider span{
@@ -292,6 +293,8 @@ font-family: "Montserrat";
   font-size: 26px;
   font-family: 'Noto Sans';
   font-style: italic;
+  position: absolute;
+  top: 10px;
 }
 
 .wr-how-container .container h3 {
